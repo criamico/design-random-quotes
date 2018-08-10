@@ -1,91 +1,79 @@
-body{
-    font-family: 'Raleway', sans-serif;
-    background-color: #979397;
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #979397;
 
-    transition-property: background-color;
-    transition-duration: 1.5s;
+  transition-property: background-color;
+  transition-duration: 1.5s;
 }
 
-h1{
-    font-family: 'Handlee', cursive;
-    font-size: 1.8em;
-    color: white;
-    text-align: left;
+h1 {
+  font-family: "Handlee", cursive;
+  font-size: 1.8em;
+  color: white;
+  text-align: left;
 }
 
-
-p{
-    font-size: 0.8em;
-    color: white;
-    text-align: left;
-
+p {
+  font-size: 0.8em;
+  color: white;
+  text-align: left;
 }
 .container {
-    margin: 0 auto;
-    width: 60%;
+  margin: 0 auto;
+  width: 60%;
 }
 
-.quote-div{
-    /* max-height: 60%; */
-    background-color: rgba(200, 206, 206, 0.49);
-
-/*     margin-top: 5%; */
-    padding: 30px;
-    border-radius: 10px;
+.quote-div {
+  background-color: rgba(200, 206, 206, 0.49);
+  |padding: 30px;
+  border-radius: 10px;
 }
 
-.author{
-    font-size: 1.2em;
-    text-align: right;
-
+.author {
+  font-size: 1.2em;
+  text-align: right;
 }
 
-.attribution{
-    margin: 20px auto;
+.attribution {
+  margin: 20px auto;
 }
 
-
-.buttons{
-    display: inline;
-    height: 36px;
+.buttons {
+  display: inline;
+  height: 36px;
 }
 
-#new-quote{
-    padding: 12px;
-    color: white;
-    background-color: #FF9800;
-    outline: none;
-    border: none;
-    border-radius: 3px;
-    display: inline;
-    vertical-align: middle;
-    height: 36px;
-    margin-right: 5px;
-
+#new-quote {
+  padding: 12px;
+  color: white;
+  background-color: #ff9800;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  display: inline;
+  vertical-align: middle;
+  height: 36px;
+  margin-right: 5px;
 }
 
-#twitter-button{
-    font-size: 2.6em;
-    display: inline;
-    vertical-align: middle;
-    color: #2196F3;
+#twitter-button {
+  font-size: 2.6em;
+  display: inline;
+  vertical-align: middle;
+  color: #2196f3;
 }
-
-
-
 
 @media screen and (max-width: 768px) {
-     .container{
-        width: 90%;
-     }
+  .container {
+    width: 90%;
+  }
 
-    h1 {
-        font-size: 1.5em;
-        margin: 0;
-    }
-    p{
-        line-height: 1.5em;
-    }
+  h1 {
+    font-size: 1.5em;
+    margin: 0;
+  }
 
-
+  p {
+    line-height: 1.5em;
+  }
 }

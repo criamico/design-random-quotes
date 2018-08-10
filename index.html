@@ -7,38 +7,34 @@
 
     <title>Random Quotes</title>
 
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" >
-   <link href='https://fonts.googleapis.com/css?family=Handlee|Raleway' rel='stylesheet' type='text/css'>
+   <link href="https://fonts.googleapis.com/css?family=Handlee|Raleway" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="style.css">
-
-
-
   </head>
+
   <body>
-
-    <!-- Container -->
     <main>
-       <div class="container">
-         <p class="attribution"> Coded by <a href="https://github.com/criamico">criamico</a> - 2016 - Quotes by <a href="">http://quotesondesign.com/</a></p>
-           <div class="quote-div">
-                <h1 id="quote"></h1>
-                </br>
+      <div class="container" id="quote-box">
+        <p class="attribution">
+          Coded by <a href="https://github.com/criamico">criamico</a> - 2016 - Quotes by <a href="">http://quotesondesign.com/</a>
+        </p>
+        <div class="quote-div">
+          <h1 id="text"></h1>
+          <br>
+          <p class="author" id="author"></p>
 
-                <p class="author"></p>
-
-                <div class="buttons">
-                    <input id="new-quote" type="button" value="NEW QUOTE"/>
-                    <a id="twitter-button" class="twitter-hashtag-button" href="https://twitter.com/intent/tweet?button_hashtag=QuotesOnDesign&text="><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-                </div>
-            </div> <!-- quote -->
-        </div><!-- container -->
+          <div class="buttons">
+            <input id="new-quote" type="button" value="NEW QUOTE"/>
+            <a id="tweet-quote" class="twitter-hashtag-button" href="https://twitter.com/intent/tweet?button_hashtag=QuotesOnDesign&text=">
+              <i class="fa fa-twitter-square" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div> <!-- quote -->
+      </div><!-- container -->
     </main>
 
-
-
-    <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="app.js"></script>
+    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
   </body>
 </html>
